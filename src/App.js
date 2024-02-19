@@ -7,7 +7,7 @@ function App() {
      const inputHandler = (event) => {
         var inputmsg = event.target.value
         if(inputmsg.trim().length < 3){
-            setMsg("Invalid message");
+            setMsg("Not a valid message");
         }
         else{
             setMsg("Valid message");
